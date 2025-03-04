@@ -2,10 +2,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      HomePage
-    </div>
-  );
+   <>
+    <Header/>
+    <Main/>
+    <Footer/>
+   </>
+   );
 }
 
 export default App;
